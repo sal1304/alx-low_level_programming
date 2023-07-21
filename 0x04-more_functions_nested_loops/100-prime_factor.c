@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * main - prints the biggest prime factor of a number.
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
 	long int number;
@@ -19,6 +21,7 @@ int main(void)
 	{
 		printf("%ld\n", biggestFactor(number));
 	}
+
 	return (0);
 }
 /**
@@ -47,6 +50,7 @@ int isPrime(long int n)
 				return (0);
 			}
 		}
+
 	return (1);
 	}
 }
@@ -79,5 +83,6 @@ long int biggestFactor(long int a)
 			}
 		}
 	}
+
 	return (factor);
 }
